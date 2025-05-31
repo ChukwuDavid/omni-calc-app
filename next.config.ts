@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
+    // unoptimized: true, // Removed for non-static export
     remotePatterns: [
       {
         protocol: "https",
@@ -18,6 +19,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // output: 'export', // Removed to enable Server Actions
 };
 
 export default nextConfig;
