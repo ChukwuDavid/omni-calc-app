@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">OmniCalc</string>
+    <string name="title_activity_main">OmniCalc</string>
+    <string name="package_name">com.chukwudavid.omnicalc</string>
+    <string name="custom_url_scheme">com.chukwudavid.omnicalc</string>
+</resources>

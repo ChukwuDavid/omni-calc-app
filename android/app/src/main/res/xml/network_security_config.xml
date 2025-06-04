@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">https://omni-calc-app.vercel.app/</domain>
+        <!-- e.g., localhost, or 10.0.2.2 (for Android emulator to reach host machine's localhost) -->
+    </domain-config>
+    <base-config cleartextTrafficPermitted="false" />
+    <!-- Deny cleartext for all other domains by default -->
+</network-security-config>
